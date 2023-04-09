@@ -10,11 +10,11 @@ function App() {
     <div>
       <Navbar />
       <main>
-        <Routes>
-          <Route path='/contact' element= { <Contact /> } />
-          <Route path='/' element={ <Main />} />
-          <Route path='*' element={ <PageNotFound /> } />
-        </Routes>
+          <Routes>
+            <Route path='/contact' element= { <Contact /> } />
+            <Route path='/' element={ <Main />} />
+            <Route path='*' element={ <PageNotFound /> } />
+          </Routes>
       </main>
     </div>
   );

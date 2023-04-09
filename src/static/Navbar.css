@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+}
+
+a:visited, a:hover, a:focus, a:active {
+  color: inherit; /* Remove purple color */
+}
+
+.nav-contact-us-button {
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: white;
+  color: black;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

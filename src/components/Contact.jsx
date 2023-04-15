@@ -22,7 +22,7 @@ const Contact = () => {
       <br/>
 
       <p>
-        Phone: 000-000-0000
+        Phone: +1 (904) 456-7380
       </p>
 
       <br/>

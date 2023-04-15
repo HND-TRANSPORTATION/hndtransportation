@@ -7,8 +7,11 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className='container'>
+      <div className='header'>
+        <Navbar />
+      </div>
+
       <main>
           <Routes>
             <Route path='/contact' element= { <Contact /> } />

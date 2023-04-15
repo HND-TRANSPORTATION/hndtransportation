@@ -1,0 +1,15 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  height: 100vh;
+}
+
+.header {
+  height: 10%;
+}
+
+main {
+  height: 90%;
+}

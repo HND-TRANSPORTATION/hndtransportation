@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="left-side">
         <Link to="/">
-          <p> HND TRANSPORTATION AND LOGISTIC </p>
+          <div className="logo"> HND TRANSPORTATION AND LOGISTIC  </div>
         </Link>
       </div>
 

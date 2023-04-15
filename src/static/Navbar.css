@@ -2,13 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5px;
-  margin-right: 10px;
-  margin-left: 40px;
-}
-
-p {
-  font-size: 20px;
+  height: 100%;
+  gap: 36px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -19,18 +16,52 @@ a:visited, a:hover, a:focus, a:active {
   color: inherit; /* Remove purple color */
 }
 
-.nav-contact-us-button {
-  margin-right: 10px;
+.left-side .logo {
+  font-size: 3vh;
+  margin-left: 2px;
 }
 
-button {
+
+.right-side button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: none;
   background-color: white;
   color: black;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 4vh;
   font-weight: 500;
   cursor: pointer;
-  transition: border-color 0.25s;
+  padding: 2px 2px;
+  margin-right: 4px;
+}
+
+/* Media query for larger smartphones */
+@media only screen and (max-width: 480px) {
+
+  .navbar-container {
+    gap: 10px;
+  }
+
+  .left-side .logo {
+    font-size: 3vh;
+  }
+  
+  .right-side button {
+    font-size: 3vh
+  }
+
+}
+
+/* Media query for smaller smartphones */
+@media only screen and (max-width: 320px) {
+  .navbar-container {
+    gap: 10px;
+  }
+
+  .left-side .logo {
+    font-size: 2vh;
+  }
+  
+  .right-side button {
+    font-size: 2vh
+  }
 }

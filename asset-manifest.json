@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/hndtransportation/static/css/main.29ad6074.css",
-    "main.js": "/hndtransportation/static/js/main.43125a2a.js",
+    "main.js": "/hndtransportation/static/js/main.499da39b.js",
     "static/js/787.596c7ad1.chunk.js": "/hndtransportation/static/js/787.596c7ad1.chunk.js",
     "static/media/Main-pic.jpeg": "/hndtransportation/static/media/Main-pic.9826ba0deaa6aebfe344.jpeg",
     "index.html": "/hndtransportation/index.html",
     "main.29ad6074.css.map": "/hndtransportation/static/css/main.29ad6074.css.map",
-    "main.43125a2a.js.map": "/hndtransportation/static/js/main.43125a2a.js.map",
+    "main.499da39b.js.map": "/hndtransportation/static/js/main.499da39b.js.map",
     "787.596c7ad1.chunk.js.map": "/hndtransportation/static/js/787.596c7ad1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29ad6074.css",
-    "static/js/main.43125a2a.js"
+    "static/js/main.499da39b.js"
   ]
 }
